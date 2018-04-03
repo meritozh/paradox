@@ -1,0 +1,6 @@
+{
+  "name": "naive-package-manager",
+  "dependencies": {
+    "babel-core": "*"
+  }
+}

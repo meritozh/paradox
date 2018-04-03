@@ -1,0 +1,23 @@
+{
+  "name": "paradox",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.1",
+    "@types/node-fetch": "^1.6.7",
+    "@types/semver": "^5.5.0",
+    "@types/tar-fs": "^1.16.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "gunzip-maybe": "^1.4.1",
+    "node-fetch": "^2.1.1",
+    "semver": "^5.5.0",
+    "tar-fs": "^1.16.0",
+    "tar-stream": "^1.5.5"
+  }
+}
